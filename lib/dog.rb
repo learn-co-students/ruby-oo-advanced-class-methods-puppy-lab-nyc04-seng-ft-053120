@@ -6,7 +6,7 @@ class Dog
     @@all = []
     def initialize(name)
         @name = name
-        #the instantiated dog will save itself
+        #the instantiated dog will call save
         save
     end
 
